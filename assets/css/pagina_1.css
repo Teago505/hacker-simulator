@@ -1,0 +1,360 @@
+.conteudo {
+    margin-top: 50px;
+}
+
+.money .zerado {
+    display: inline;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+
+.money {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.money #money {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: darkgreen;
+}
+
+.zerado {
+    margin-left: 50px;
+    color: red;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.itens p {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.hacks, .loja, .desafio-area {
+    border: solid #000000 5px;
+    margin: 50px;
+    padding: 25px;
+}
+
+.hacks {
+    width: 700px;
+    margin-bottom: 0;
+}
+
+.loja {
+    width: 240px;
+    height: 650px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-right: 10px;
+}
+
+.loja h1 {
+    margin-top: 25px;
+}
+
+.itens button, p {
+    display: inline;
+    margin: 15px 0;
+}
+
+.itens button {
+    width: 150px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.hackeavel, .desafio {
+    display: inline-block;
+}
+
+.desafio {
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+.desafio button {
+    display: block;
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+}
+
+.desafio-area {
+    width: 68%;
+    height: 650px;
+    margin-left: 5px;
+    margin-right: 0px;
+    vertical-align: top;
+    padding: 0;
+}
+
+.loja, .desafio-area {
+    display: inline-block;
+}
+
+.desafio-tipo {
+    text-align: center;
+    border-bottom: solid #000000 5px;
+    padding: 5px;
+}
+
+.desafio-tipo p {
+    font-size: 35px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* naza */
+
+.naza-titulo-center {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.naza-titulo {
+    color: rgb(75, 20, 22);
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.naza-nome-center {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.naza-login-area {
+    width: 34%;
+    margin: 25px auto;
+    margin-top: 50px;
+}
+
+.espaçamento-naza {
+    margin: 10px 0;
+}
+
+table tr td {
+    text-align: right;
+}
+
+.naza-login-area-buttons {
+    text-align: center;
+}
+
+.texto-nome-naza, .texto-senha-naza, .registro-nome-texto-naza, .registro-senha-texto-naza, .confirme-senha-texto-naza, .trabalha-naza, .hackear-naza {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nome-naza, .senha-naza, .registro-senha-naza, .registro-nome-naza, .confirme-senha-naza {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.naza-login-area-buttons .button-1-naza {
+    margin-right: 50px;
+}
+
+.naza-login-area-buttons .button-2-naza {
+    margin-left: 50px;
+}
+
+.registro-area-naza-borda {
+    border-top: solid #000000 5px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.registro-area-naza {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.trabalha-naza-sim, .trabalha-naza-nao, .hackear-naza-sim, .hackear-naza-nao {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+table tr .radio-naza-center {
+    text-align: center;
+}
+
+table tr td label {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.espaçamento-naza-button {
+    margin-top: 30px;
+}
+
+/* PENTÁGONO */
+
+.area-pentagono-1, .area-pentagono-2, .area-invisivel-pentagono {
+    display: inline-block;
+    margin: 25px;
+}
+
+.area-invisivel-pentagono {
+    vertical-align: top;
+    margin-top: 35px;
+    width: 600px;
+    height: 400px;
+}
+
+.area-pentagono-2 {
+    vertical-align: top;
+    margin-top: 35px;
+    width: 600px;
+    height: 400px;
+    border: solid #000 5px;
+}
+
+.area-pentagono-1 button, .button-lixeira-pentagono {
+    width: 140px;
+    height: 85px;
+    background-color: #ccc;
+    border: solid #ccc 10px;
+    border-radius: 5%;
+    display: block;
+    transition: all 700ms;
+    margin-top: 10px;
+}
+
+.area-pentagono-1 button:hover, .button-lixeira-pentagono:hover {
+    background-color: #999;
+    border-color: #999;
+}
+
+.navegador-button-pentagono {
+    background-image: url("../img/interner-explorer-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.painel-button-pentagono {
+    background-image: url("../img/painel.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid #ccc 5px;
+}
+
+.icone-lixeira-pentagono {
+    margin-left: 80%;
+}
+
+.button-lixeira-pentagono {
+    background-image: url("../img/icone-lixeira.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.area-navegador {
+    text-align: center;
+}
+
+.area-navegador-pesquisa input {
+    width: 450px;
+}
+
+.area-navegador-pesquisa button {
+    padding: 0px 13px;
+}
+
+.area-navegador-pesquisa input, button {
+    margin: 0 5px;
+}
+
+.area-navegador-pesquisa {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.espaçamento-appps-lixeira-pentagono {
+    margin-top: 0%;
+}
+
+.banco-uza-pentagono {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.titulo-banco-uza {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(118, 66, 70);
+    font-size: 35px;
+}
+
+.saldo-banco-uza {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.informacões-de-transferencia-banco-uza {
+    width: 380px;
+    margin: 10px auto;
+}
+
+.informacões-de-transferencia-banco-uza button {
+   margin-top: 10px;
+}
+
+.rh998877 {
+    margin: 50px;
+}
+
+.painel-pentagono {
+    margin-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.confg-pc-pentagono {
+    margin: 100px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.img-lixeira-pentagono {
+    background-image: url("../img/voce.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* VELHAS */
+
+.velhinhas-1 {
+    text-align: center;
+}
+
+#tempoVelhinhas {
+    margin-left: 10px;
+    width: 75%;
+}
+.velhinhasTempo {
+    font-size: 30px;
+}

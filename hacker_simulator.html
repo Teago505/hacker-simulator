@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>HACKER SIMULATOR</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/pagina_1.css">
+    <link rel="shortcut icon" href="./assets/img/icon.png">
+    <script src="./assets/javascript/liberação-loja.js"></script>
+    <script src="./assets/javascript/progresso.js"></script>
+    <script src="./assets/javascript/desafios.js"></script>
+    <script>
+        console.log("para ganhar muito dinheiro digite no console:");
+        console.log("dinheiro = valor desejado");
+        console.log("atualize o contador, por exemplo, clique para hackear sacolas.");
+        console.log("ou digite no console:");
+        console.log('document.getElementById("money").innerHTML = "dinheiro: $" + dinheiro;');
+        console.log("digite exatamente igual, se não, podera falhar!");
+        console.log("ai ele ira atualizar para o valor atual.");
+        console.log("@teaguinho_feiu");
+    </script>
+</head>
+
+<body>
+    <div class="money">
+        <p id="money">dinheiro: $0</p>
+        <p class="zerado" id="zerado"></p>
+    </div>
+    <div class="conteudo">
+        <div class="hacks">
+            <h1>hacks</h1>
+            <div class="hackeavel">
+                <ul>
+                    <li>
+                        <div class="itens">
+                            <button id="hack-button-0" onclick="hack(0);">Sacolas de Supermercado</button>
+                            <progress id="progresso-sacolas" value="0" max="100"></progress>
+                            <p>10s dá 2</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itens">
+                            <button id="hack-button-1" onclick="hack(1);" disabled>Enganar pessoas no cálculo</button>
+                            <progress id="progresso-calculadora" value="0" max="100"></progress>
+                            <p>15s dá 5</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itens">
+                            <button id="hack-button-2" onclick="hack(2);" disabled>Passar trote pedindo
+                                dinheiro</button>
+                            <progress id="progresso-trote" value="0" max="100"></progress>
+                            <p>20s dá 10</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itens">
+                            <button id="hack-button-3" onclick="hack(3);" disabled>Fazer APPS falsos</button>
+                            <progress id="progresso-apps" value="0" max="100"></progress>
+                            <p>25s dá 20</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itens">
+                            <button id="hack-button-4" onclick="hack(4);" disabled>Hackear bicicletas</button>
+                            <progress id="progresso-bicicletas" value="0" max="100"></progress>
+                            <p>35s dá 40</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itens">
+                            <button id="hack-button-5" onclick="hack(5);" disabled>Hackear jogos leves</button>
+                            <progress id="progresso-jogos" value="0" max="100"></progress>
+                            <p>60s dá 50</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itens">
+                            <button id="hack-button-6" onclick="hack(6);" disabled>Hackear o rabbo para moedas</button>
+                            <progress id="progresso-rabbo" value="0" max="100"></progress>
+                            <p>80s dá 100</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itens">
+                            <button id="hack-button-7" onclick="hack(7);" disabled>Hackear o grande roubo de carros
+                                cinco</button>
+                            <progress id="progresso-carros" value="0" max="100"></progress>
+                            <p>100s dá 300</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="desafio">
+                <button id="naza-button" onclick="hackearNaza();" disabled>Primeiro desafio:<br>Hackear a NAZA</button>
+                <button id="pentagono-button" onclick="hackearPentagono();" disabled>Segundo dasefio:<br>Hackear o
+                    Pentágono</button>
+                <button id="velhas-button" onclick="hackearVelhas();" disabled>Terceiro desafio:<br>??? </button>
+            </div>
+        </div>
+        <div class="teste">
+            <div class="loja">
+                <h1>loja</h1>
+                <ul>
+                    <li>
+                        <div id="calculadora-loja" class="itens">
+                            <button onclick="verificaçãoLoja(0)" id="loja-calculadora">Calculadora</button>
+                            <p>$10</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="nokiah-loja" class="itens">
+                            <button onclick="verificaçãoLoja(1);" id="loja-nokiah" disabled>Celular Nokíah
+                                Tijolão</button>
+                            <p>$50</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="celukar-loja" class="itens">
+                            <button onclick="verificaçãoLoja(2);" id="loja-celular" disabled>Celular com
+                                Android</button>
+                            <p>$100</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="notebook-loja" class="itens">
+                            <button onclick="verificaçãoLoja(3);" id="loja-notebook" disabled>Notebook da
+                                Negativo</button>
+                            <p>$300</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="computador-1-loja" class="itens">
+                            <button onclick="verificaçãoLoja(4);" id="loja-computador-1" disabled>Computador sem Placa
+                                de
+                                Video</button>
+                            <p>$600</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="computador-2-loja" class="itens">
+                            <button onclick="verificaçãoLoja(5);" id="loja-computador-2" disabled>Computador q é mais de
+                                300
+                                reias</button>
+                            <p>$1000</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="computador-3-loja" class="itens">
+                            <button onclick="verificaçãoLoja(6);" id="loja-computador-3" disabled>Ultra Mega Computador
+                                da
+                                Winteu</button>
+                            <p>$1500</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="desafio-area">
+                <div class="desafio-tipo">
+                    <p id="server">server shut down</p>
+                </div>
+                <div id="server-cenectado" class="servidor">
+                    <p id="linha-1" class="classe-1"></p>
+                    <p id="linha-2" class="classe-2"></p>
+                    <p id="linha-3" class="classe-3"></p>
+                    <p id="linha-4" class="classe-4"></p>
+                    <p id="linha-5" class="classe-5"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
