@@ -1,4 +1,4 @@
-<h1>Hacker Simulator</h1>
+<h1>🐱‍💻 Hacker Simulator</h1>
 <p>🎮 Jogo feito em html / javascript</p>
 <p>🧑 Criado por Tiago Gabriel Dusman Hoepfner, no dia 22 de maio de 2021</p>
 <p>✅ Finalizado no dia 16 de junho de 2021</p>
